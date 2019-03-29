@@ -305,7 +305,7 @@ public class homeowners {
 			}
 			
 	}	
-		       public void Extract_Links_Staging() throws InterruptedException
+		       public static void Extract_Links_Staging() throws InterruptedException
 		       {
 
 		              System.setProperty("webdriver.ie.driver", "./CommonJarFile/IEDriverServer.exe");
@@ -427,10 +427,11 @@ public class homeowners {
 		       }
 		       
 		       
-		public static void selectbyname()
+		public static void selectbyname() throws InterruptedException
 		{
 			System.out.println("this is selectbyname");
-			
+			System.out.println();
+			Extract_Links_Staging();
 		}
 
 	
